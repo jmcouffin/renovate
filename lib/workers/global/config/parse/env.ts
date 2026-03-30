@@ -8,8 +8,6 @@ import { parseJson } from '../../../../util/common.ts';
 import { coersions } from './coersions.ts';
 import { migrateAndValidateConfig } from './util.ts';
 
-export { getEnvName };
-
 function normalizePrefixes(
   env: NodeJS.ProcessEnv,
   prefix: string | undefined,
