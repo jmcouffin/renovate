@@ -9,7 +9,7 @@ The following `depTypes` are currently supported by the npm manager :
 - `packageManager`
 - `overrides`
 - `resolutions`
-- `pnpm.overrides`
+- `pnpm.overrides` in `package.json` or `pnpm-workspace.yaml`. [Matches pnpm overrides](https://pnpm.io/settings#dependency-resolution).
 - `pnpm.catalog` or `pnpm.catalog.<name>`. [Matches any default and named pnpm catalogs](https://pnpm.io/catalogs#defining-catalogs).
 - `yarn.catalog` or `yarn.catalogs.<name>`. [Matches any default and named yarn catalogs](https://yarnpkg.com/features/catalogs).
 
